@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: register-app
-          image: trupti
+          image: trupti:latest
           resources:
             limits:
               memory: "256Mi"
